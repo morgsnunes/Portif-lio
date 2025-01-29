@@ -10,7 +10,7 @@ body {
 header {
     text-align: center;
     padding: 2rem;
-    background: linear-gradient(90deg, #6c757d, #007bff); /* Um tom mais suave de azul */
+    background: linear-gradient(90deg, #6c757d, #8a3d3d); /* Um tom mais suave de azul */
     color: #fff; /* Texto branco */
 }
 
@@ -35,7 +35,7 @@ header h1 {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 2px solid #007bff; /* Cor da borda da imagem mais clara */
+    border: 2px solid #2b0808; /* Cor da borda da imagem mais clara */
 }
 
 .profile p {
@@ -59,7 +59,8 @@ header h1 {
 footer {
     text-align: center;
     padding: 1rem;
-    background: #007bff; /* Cor de fundo mais clara */
+    background: #522009; /* Cor de fundo mais clara */
     color: white;
     margin-top: 2rem;
 }
+
