@@ -1,5 +1,5 @@
 body {
-    font-family: 'Times New Roman' , sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -28,4 +28,37 @@ header h1 {
     display: flex;
     align-items: center;
     gap: 1rem;
+    justify-content: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #700a0a;
+}
+
+.profile p {
+    max-width: 600px; /* Para o texto não ocupar todo o espaço */
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.project {
+    padding: 1rem;
+    border: 1px solid #3d1a1a;
+    border-radius: 5px;
+    background-color: #411d1d;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+    margin-top: 2rem;
 }
